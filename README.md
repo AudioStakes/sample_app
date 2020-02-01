@@ -37,3 +37,13 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+
+## Automated tests with Guard
+
+To run the integration tests when a contoroller is changed automatically, you should open a new terminal and run it at the command line as follows:
+
+```
+$ bundle exec guard
+```
+
+To run all the tests, simplu hit return at the `guard>` prompt.
