@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'bootstrap-sass'
+gem 'bcrypt'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
