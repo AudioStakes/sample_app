@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    view_context.log_out
+    view_context.log_out if view_context.logged_in?
     redirect_to root_url
   end
 end
